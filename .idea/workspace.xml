@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b09522-cac9-407a-a8a0-7a91c8281843" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/challenger/NumPrimesSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/Anagramas/Anagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/Anagramas/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/OOP/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/OOP/ValueOrReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/Poli.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/Vetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/VetorTeste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/challenger/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/challenger/ReadString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/challenger/UniqueCharInString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/challenger/Vacation$Mes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/challenger/Vacation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/lists/Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/lists/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/lists/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/lists/TestaListaLigada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/problems/ReverseInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/queue/QueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/BoubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/MergeSorgGeekForGeek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/MergeSortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/MergeSortArrayNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/MergeSortLinketList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/sorts/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/stack/TestStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/threads/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/threads/Sync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ed/threads/ThreadedSend.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/challenger/ReverseStringLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/challenger/ReverseStringRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,20 +16,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/challenger/Line.java">
+      <file leaf-file-name="ReverseStringRecursion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/challenger/ReverseStringRecursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumPrimesSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/challenger/NumPrimesSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,14 +45,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/challenger/NumPrimesSum.java" />
+        <option value="$PROJECT_DIR$/src/challenger/NumPrimesSumRecursive.java" />
+        <option value="$PROJECT_DIR$/src/challenger/ReverseStringLoop.java" />
+        <option value="$PROJECT_DIR$/src/challenger/ReverseStringRecursion.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1299" />
+    <option name="y" value="142" />
     <option name="width" value="1563" />
-    <option name="height" value="1164" />
+    <option name="height" value="1463" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,9 +104,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReverseStringRecursion">
     <configuration name="NumPrimesSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenger.NumPrimesSum" />
+      <module name="proplem-solve" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="NumPrimesSumRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenger.NumPrimesSumRecursive" />
+      <module name="proplem-solve" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ReverseStringLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenger.ReverseStringLoop" />
+      <module name="proplem-solve" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenger.ReverseStringRecursion" />
       <module name="proplem-solve" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -189,9 +190,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.NumPrimesSum" />
+      <item itemvalue="Application.NumPrimesSumRecursive" />
+      <item itemvalue="Application.ReverseStringRecursion" />
+      <item itemvalue="Application.ReverseStringLoop" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStringRecursion" />
+        <item itemvalue="Application.ReverseStringLoop" />
         <item itemvalue="Application.NumPrimesSum" />
+        <item itemvalue="Application.NumPrimesSumRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -209,23 +219,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
+    <frame x="866" y="95" width="1042" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49971014" weight="0.32890624" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49971014" weight="0.32777116" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5029821" side_tool="true" visible="true" weight="0.439441" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5040733" side_tool="true" weight="0.884375" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4970179" visible="true" weight="0.439441" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49592668" visible="true" weight="0.1978546" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49971014" weight="0.3296875" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09900597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29327902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -242,6 +252,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/challenger/Line.java">
@@ -264,6 +279,27 @@
     <entry file="file://$PROJECT_DIR$/ed.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1229" selection-start-line="1229" selection-end-line="1229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/challenger/NumPrimesSumRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/challenger/NumPrimesSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/challenger/Line.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -271,10 +307,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/challenger/NumPrimesSum.java">
+    <entry file="file://$PROJECT_DIR$/src/challenger/ReverseStringLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/challenger/ReverseStringRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
