@@ -3,31 +3,34 @@ package challenger;
 public class UniqueCharInString {
 
     public static void main(String...args){
-        boolean[] char_set = new boolean[256];
-
-        int x = 0;
-
-        x |= (8 << 1);
-
-        System.out.println((7 | 6));
-
-//        System.out.println(isUniqueChars("renatoo"));
-
+        System.out.println(isUniqueChars2("aa"));
     }
 
     public static boolean isUniqueChars(String str) {
          int checker = 0;
          for (int i = 0; i < str.length(); ++i) {
-             System.out.print("i: "+i);
              int val = str.charAt(i) - 'a';
-             System.out.print(", val: "+val);
-             System.out.println(", checker before:"+checker);
              if ((checker & (1 << val)) > 0) return false;
-             checker |= (1 << val);
-             System.out.println(", checker after:"+checker);
-             System.out.println("");
+             checker = (1 << val);
          }
         return true;
     }
 
+    public static boolean isUniqueChars2(String str) {
+        String checker = "";
+        for (int i = 0; i < str.length(); ++i) {
+            if (checker.equals(str.charAt(i)+"")) return false;
+            checker = str.charAt(i)+"";
+        }
+        return true;
+    }
+
+    public static String toBinary(int x){
+        String ret = "";
+        while(x > 0){
+            ret = (x % 2)+ret;
+            x = x / 2;
+        }
+        return ret;
+    }
 }

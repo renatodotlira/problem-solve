@@ -6,6 +6,14 @@ public class LinkedList {
     private Cell last = null;
     private int totalEmements = 0;
 
+    public LinkedList(Object...array){
+        for (Object o : array){
+            this.add(o);
+        }
+    }
+
+    public LinkedList(){}
+
     public void addAtBegin(Object element){
         if(totalEmements == 0){
             Cell newCell = new Cell(element);
@@ -151,8 +159,8 @@ public class LinkedList {
     }
 
     public boolean smaller(int x, int y) {
-        int valueX = (int)get(x);
-        int valueY = (int)get(y);
+        int valueX = (int) get(x);
+        int valueY = (int) get(y);
         if(valueX < valueY)
             return true;
         return false;

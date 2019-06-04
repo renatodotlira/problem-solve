@@ -6,22 +6,22 @@ public class ReverseInt {
 
     public static void main(String...args){
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number: ");
         int x = scanner.nextInt();
-        String s = x+"";
-        int reversed;
-        if(x<0)
-            reversed = Integer.parseInt("-"+reverse(s.substring(1,s.length())));
-        else
-            reversed = Integer.parseInt(reverse(s));
-        System.out.println(reversed);
+        System.out.println("The reversed number is: "+reverse(x));
     }
 
-    private static String reverse(String s){
+    private static String reverse(int n){
         String reversed = "";
-        for (char c:s.toCharArray()) {
+        String signal = "";
+        String stringOfNumber = ""+n;
+        if (n<0) {
+            stringOfNumber = stringOfNumber.substring(1);
+            signal = "-";
+        }
+        for (char c:stringOfNumber.toCharArray()) {
             reversed = c + reversed;
         }
-        return reversed;
+        return signal+reversed;
     }
-
 }

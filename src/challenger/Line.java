@@ -2,9 +2,9 @@ package challenger;
 
 public class Line {
     public static void main(String...args){
-        System.out.println(Tickets(new int[]{25, 25, 50, 50, 100}));
+        System.out.println(tickets(new int[]{25, 25, 25, 50, 50, 100}));
     }
-    public static String Tickets(int[] peopleInLine)
+    private static String tickets(int[] peopleInLine)
     {
         int vinte = 0;
         int cinquenta = 0;
