@@ -31,12 +31,12 @@ public class LargestProduct {
         int[] numbers = new int[1000];
         int x = 0;
 
+        // passa a string para um array de int
         for (char i : v.toCharArray()){
              numbers[x++] = Integer.parseInt(i+"");
         }
 
         for (int i = 0; i < (numbers.length - 12); i++){
-            System.out.println(numbers[i]);
             long product = numbers[i];
             for (int j = i+1; j < i + 13; j++){
                   product = product * numbers[j];

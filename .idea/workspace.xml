@@ -2,33 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b09522-cac9-407a-a8a0-7a91c8281843" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Anagramas/Permutacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/date/SomaDias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/hackerrank/BirthdayChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/TreinoSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/Arvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/ArvoreExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consult/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/QueensAttack2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projecteuler/Question12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/Anagramas/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proplem-solve/Anagramas/Anagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/META-INF/proplem-solve.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/FibonacciNumbersSum$Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proplem-solve/challenger/FibonacciNumbersSum$Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/FibonacciNumbersSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proplem-solve/challenger/FibonacciNumbersSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/Problem240.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/Problem240rofl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/PrimeNumberAtPlace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/PrimeNumberAtPlace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Anagramas/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anagramas/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenger/FibonacciNumbersSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenger/FibonacciNumbersSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/Anagramas/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/Anagramas/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/Anagramas/Permutacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/OOP/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/OOP/ValueOrReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/FibonacciNumbersSum$Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/FibonacciNumbersSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/LagestPalindromeProductOfThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/LargestProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/LargestProductInGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/ReadString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/ReverseStringLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/ReverseStringRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/RoleDicetryTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/RoledDice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/UniqueCharInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/Vacation$Mes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/Vacation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/PrimeNumberAtPlace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/PrimeNumberCircular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/PrimeNumberSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/PrimesNumberSumArrayMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/challenger/primes/p35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/date/SomaDias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/basic/Chain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/basic/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/basic/FirstCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/basic/SecondCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/basic/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/numbersHandle/Chain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/numbersHandle/NegativeProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/numbersHandle/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/numbersHandle/PositiveProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/numbersHandle/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/chainOfResponsability/numbersHandle/ZeroProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/singleton/PatternSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/designPatterns/singleton/TestSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/lists/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/lists/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/lists/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/lists/TestaListaLigada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/problems/ReverseInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/problems/hackerrank/BirthdayChocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/projecteuler/Question01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/queue/QueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/MergeSorgGeekForGeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/MergeSortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/MergeSortArrayNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/MergeSortLinketList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/sorts/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/stack/TestStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/threads/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/threads/Sync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/threads/ThreadedSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/training/Prime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/training/Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/training/TreinoSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/trees/Arvore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/trees/ArvoreExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proplem-solve/trees/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenger/LargestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenger/LargestProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/challenger/primes/PrimeNumberAtPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenger/primes/PrimeNumberAtPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consult/Prime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="215" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -78,6 +136,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -87,23 +146,9 @@
       <recent name="challenger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArvoreExecutor">
-    <configuration name="ArvoreExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.ArvoreExecutor" />
-      <module name="proplem-solve" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciNumbersSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenger.FibonacciNumbersSum" />
+  <component name="RunManager" selected="Application.QueensAttack2">
+    <configuration name="LargestProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenger.LargestProduct" />
       <module name="proplem-solve" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -116,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Anagramas.Permutacao" />
+    <configuration name="QueensAttack2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.QueensAttack2" />
       <module name="proplem-solve" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Anagramas.*" />
+          <option name="PATTERN" value="hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="projecteuler.Question01" />
+    <configuration name="Question09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.Question09" />
       <module name="proplem-solve" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -144,13 +189,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.Teste" />
+    <configuration name="Question12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projecteuler.Question12" />
       <module name="proplem-solve" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.queenattack2.Solution" />
+      <module name="proplem-solve" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.queenattack2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Permutacao" />
-      <item itemvalue="Application.Question01" />
-      <item itemvalue="Application.Teste" />
-      <item itemvalue="Application.FibonacciNumbersSum" />
-      <item itemvalue="Application.ArvoreExecutor" />
+      <item itemvalue="Application.LargestProduct" />
+      <item itemvalue="Application.Question09" />
+      <item itemvalue="Application.Question12" />
+      <item itemvalue="Application.QueensAttack2" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArvoreExecutor" />
-        <item itemvalue="Application.FibonacciNumbersSum" />
-        <item itemvalue="Application.Question01" />
-        <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Permutacao" />
+        <item itemvalue="Application.QueensAttack2" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Question12" />
+        <item itemvalue="Application.Question09" />
+        <item itemvalue="Application.LargestProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -219,46 +278,50 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1555" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1585503284066" />
-    <state x="1511" y="231" key="#xdebugger.evaluate" timestamp="1585506468510">
+    <state x="1798" y="348" width="490" height="591" key="#xdebugger.evaluate" timestamp="1585659613455">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1511" y="231" key="#xdebugger.evaluate/0.0.2560.1050@0.0.2560.1050" timestamp="1585506468510" />
-    <state width="400" height="466" key="DebuggerActiveHint" timestamp="1585506734770">
+    <state x="1798" y="348" width="490" height="591" key="#xdebugger.evaluate/0.0.2560.1050@0.0.2560.1050" timestamp="1585659613455" />
+    <state x="1602" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585621058049">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="400" height="466" key="DebuggerActiveHint/0.0.2560.1050@0.0.2560.1050" timestamp="1585506734770" />
-    <state width="1561" height="458" key="GridCell.Tab.0.bottom" timestamp="1585507576598">
+    <state x="1602" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1050@0.0.2560.1050" timestamp="1585621058049" />
+    <state width="412" height="466" key="DebuggerActiveHint" timestamp="1585611203619">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="458" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1585507576598" />
-    <state width="1561" height="458" key="GridCell.Tab.0.center" timestamp="1585507576598">
+    <state width="412" height="466" key="DebuggerActiveHint/0.0.2560.1050@0.0.2560.1050" timestamp="1585611203619" />
+    <state width="1373" height="228" key="GridCell.Tab.0.bottom" timestamp="1585661204097">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="458" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1585507576598" />
-    <state width="1561" height="458" key="GridCell.Tab.0.left" timestamp="1585507576598">
+    <state width="1373" height="228" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1585661204097" />
+    <state width="1373" height="228" key="GridCell.Tab.0.center" timestamp="1585661204097">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="458" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1585507576598" />
-    <state width="1561" height="458" key="GridCell.Tab.0.right" timestamp="1585507576598">
+    <state width="1373" height="228" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1585661204097" />
+    <state width="1373" height="228" key="GridCell.Tab.0.left" timestamp="1585661204097">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="458" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1585507576598" />
-    <state width="1561" height="313" key="GridCell.Tab.1.bottom" timestamp="1585506810976">
+    <state width="1373" height="228" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1585661204097" />
+    <state width="1373" height="228" key="GridCell.Tab.0.right" timestamp="1585661204097">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="313" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1585506810976" />
-    <state width="1561" height="313" key="GridCell.Tab.1.center" timestamp="1585506810975">
+    <state width="1373" height="228" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1585661204097" />
+    <state width="1373" height="252" key="GridCell.Tab.1.bottom" timestamp="1585659835606">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="313" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1585506810975" />
-    <state width="1561" height="313" key="GridCell.Tab.1.left" timestamp="1585506810975">
+    <state width="1373" height="252" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1585659835606" />
+    <state width="1373" height="252" key="GridCell.Tab.1.center" timestamp="1585659835606">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="313" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1585506810975" />
-    <state width="1561" height="313" key="GridCell.Tab.1.right" timestamp="1585506810976">
+    <state width="1373" height="252" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1585659835606" />
+    <state width="1373" height="252" key="GridCell.Tab.1.left" timestamp="1585659835606">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1561" height="313" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1585506810976" />
+    <state width="1373" height="252" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1585659835606" />
+    <state width="1373" height="252" key="GridCell.Tab.1.right" timestamp="1585659835606">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1373" height="252" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1585659835606" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585504355214">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -271,6 +334,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="450" y="320" key="git4idea.merge.GitPullDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1585432975276" />
+    <state x="1461" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1585606871636">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1461" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1585606871636" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,6 +356,16 @@
           <url>file://$PROJECT_DIR$/src/problems/hackerrank/BirthdayChocolate.java</url>
           <line>68</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projecteuler/Question12.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projecteuler/Question12.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

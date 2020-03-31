@@ -18,9 +18,7 @@ public class PrimeNumberAtPlace {
         int n = 5;
         int lastPrime = 5;
         while (place < p){
-            System.out.println(n);
             if(isPrime(n)) {
-                System.out.println(n+" is prime");
                 place++;
                 lastPrime = n;
             }
