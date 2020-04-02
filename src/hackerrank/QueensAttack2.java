@@ -15,9 +15,9 @@ public class QueensAttack2 {
         }
 
         // Complete the queensAttack function below.
-        static long queensAttack(int n, int k, int r_q, int c_q, int[][] obstacles) {
+        static long queensAttack(int n, int k, int r_q, int c_q, int[][] os) {
             Map<String, Boolean> obs = new HashMap<>();
-            for (int[] v : obstacles)
+            for (int[] v : os)
                 obs.put(v[0] +","+ v[1], true);
 
             for (int[] direction : directions)
@@ -26,12 +26,12 @@ public class QueensAttack2 {
             return numOfMoves;
         }
 
-        static void walk(int[] direction, int r, int c, int limit, Map<String, Boolean> obstacles){
+        static void walk(int[] d, int r, int c, int l, Map<String, Boolean> o){
             boolean hadCollision = false;
             while(!hadCollision){
-                r += direction[0];
-                c += direction[1];
-                if(isColision(r, c, obstacles, limit))
+                r += d[0];
+                c += d[1];
+                if(isColision(r, c, o, l))
                     hadCollision = true;
                 else {
                     numOfMoves++;
@@ -39,16 +39,16 @@ public class QueensAttack2 {
             }
         }
 
-        static boolean isColision(int r, int c, Map<String, Boolean> obstacles, int limit){
-            return isColisionLimit(r, c, limit) || isColisionObstacle(r, c, obstacles);
+        static boolean isColision(int r, int c, Map<String, Boolean> os, int l){
+            return isColisionLimit(r, c, l) || isColisionObstacle(r, c, os);
         }
 
-        static boolean isColisionLimit(int r, int c, int limit){
-            return r <= 0 || r > limit || c <= 0 || c > limit;
+        static boolean isColisionLimit(int r, int c, int l){
+            return r <= 0 || r > l || c <= 0 || c > l;
         }
 
-        static boolean isColisionObstacle(int r, int c, Map<String, Boolean> obstacles){
-            return obstacles.containsKey(r + "," + c);
+        static boolean isColisionObstacle(int r, int c, Map<String, Boolean> os){
+            return os.containsKey(r + "," + c);
         }
 
 
