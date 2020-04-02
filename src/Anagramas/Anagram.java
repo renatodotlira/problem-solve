@@ -5,11 +5,12 @@ import java.util.Set;
 
 public class Anagram {
     public static void main(String... args){
-        char[] letras = {'c','o', 'r'};
+        char[] letras = {'a','b', 'c'};
         Set indices = new HashSet();
         doit(letras,indices,"");
     }
     public static void doit(char[] letras, Set indices, String palavra){
+        System.out.println(palavra+"------"+indices);
         for (int x = 0; x < letras.length; x++){
             if(!indices.contains(x)){
                 indices.add(x);
